@@ -1,0 +1,12 @@
+uint64 timestamp
+char[30] eng_status
+char[30] ops_switch
+char[30] error
+float64 rpm
+float64 egt
+float64 thr
+float64 vout
+float64 idle_v
+float64 maxrpm_v
+float64 bat_v
+uint8 bldc
