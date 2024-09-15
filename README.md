@@ -14,7 +14,6 @@ This repository contains a custom driver for interfacing the PX4 firmware with t
 To begin, clone the PX4-Autopilot repository:
 ```bash
 git clone https://github.com/PX4/PX4-Autopilot.git --recursive
-cd PX4-Autopilot
 ```
 
 ### 2. Copy Necessary Files
