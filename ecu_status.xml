@@ -1,0 +1,25 @@
+<message id="11514" name="ECU_STATUS">
+  <description>The status of the engine control units. </description>
+  <field type="char[30]" name="ops_switch1">OPS Switch 1</field>
+  <field type="char[30]" name="eng_status1">Egnine 1 Status</field>
+  <field type="char[30]" name="error1">Engine 1 Error</field>
+  <field type="float" name="rpm1">Engine 1 RPM</field>
+  <field type="float" name="egt1">Engine 1 Exhaust Gas Temperature</field>
+  <field type="float" name="thr1">Engine 1 Throttle</field>
+  <field type="float" name="vout1">Engine 1 Output Voltage</field>
+  <field type="float" name="bat_v1">Engine 1 Battery Voltage</field>
+  <field type="float" name="idle_v1">Engine 1 Idle Voltage</field>
+  <field type="float" name="maxrpm_v1">Engine 1 Max RPM Voltage</field>
+  <field type="float" name="bldc1">Engine 1 BLDC</field>
+  <field type="char[30]" name="ops_switch2">Engine 2 OPS Switch</field>
+  <field type="char[30]" name="eng_status2">Egnine 2 Status</field>
+  <field type="char[30]" name="error2">Engine 2 Error</field>
+  <field type="float" name="rpm2">Engine 2 RPM</field>
+  <field type="float" name="egt2">Engine 2 Exhaust Gas Temperature</field>
+  <field type="float" name="thr2">Engine 2 Throttle</field>
+  <field type="float" name="vout2">Engine 2 Output Voltage</field>
+  <field type="float" name="bat_v2">Engine 2 Battery Voltage</field>
+  <field type="float" name="idle_v2">Engine 2 Idle Voltage</field>
+  <field type="float" name="maxrpm_v2">Engine 2 Max RPM Voltage</field>
+  <field type="float" name="bldc2">Engine 2 BLDC</field>
+</message>
