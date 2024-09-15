@@ -39,4 +39,4 @@ cp path_to_this_repo/mavlink_main.cpp PX4-Autopilot/src/modules/mavlink/
 cp path_to_this_repo/mavlink_messages.cpp PX4-Autopilot/src/modules/mavlink/
 ```
 
-Compile the firmware and use the provided QGroundControl.exe application from [here]((https://drive.google.com/file/d/1X5j5I4BpIOS05GSPgRC9PdsaRI0zkSHb/view?usp=sharing)) to upload the compiled firmware to your flight controller. Then use the same QGC app to connect to the Autopilot.
+Compile the firmware and use the provided QGroundControl.exe application from [here](https://drive.google.com/file/d/1X5j5I4BpIOS05GSPgRC9PdsaRI0zkSHb/view?usp=sharing) to upload the compiled firmware to your flight controller. Then use the same QGC app to connect to the Autopilot.
