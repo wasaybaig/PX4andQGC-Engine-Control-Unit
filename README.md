@@ -15,3 +15,5 @@ To begin, clone the PX4-Autopilot repository:
 ```bash
 git clone https://github.com/PX4/PX4-Autopilot.git
 cd PX4-Autopilot
+
+### 2. Copy Necessary Files
