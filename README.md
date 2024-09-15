@@ -15,5 +15,28 @@ To begin, clone the PX4-Autopilot repository:
 ```bash
 git clone https://github.com/PX4/PX4-Autopilot.git
 cd PX4-Autopilot
+```
 
 ### 2. Copy Necessary Files
+```bash
+cp -r path_to_this_repo/ecu1 PX4-Autopilot/src/drivers/
+cp -r path_to_this_repo/ecu2 PX4-Autopilot/src/drivers/
+cp path_to_this_repo/ecu1.msg PX4-Autopilot/msg/
+cp path_to_this_repo/ecu2.msg PX4-Autopilot/msg/
+```
+
+### 3. Update MAVLink Message Definitions
+Add the ecu_status.xml content to the PX4-Autopilot/src/modules/mavlink/mavlink/message_definitions/v1.0/common.xml file. Insert the XML code appropriately within the <messages> section of common.xml.
+
+### 4. Add MAVLink Stream Header
+```bash
+cp path_to_this_repo/ECU_STATUS.hpp PX4-Autopilot/src/modules/mavlink/streams/
+```
+
+### 5. Override MAVLink Source Files
+```bash
+cp path_to_this_repo/mavlink_main.cpp PX4-Autopilot/src/modules/mavlink/
+cp path_to_this_repo/mavlink_messages.cpp PX4-Autopilot/src/modules/mavlink/
+```
+
+Compile the firmware and use the provided QGroundControl.exe application from this repository to upload the compiled firmware to your flight controller. Then use the same QGC app to connect to the Autopilot.
